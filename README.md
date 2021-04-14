@@ -2,6 +2,7 @@
 A setu bot for Telegram.
 
 ## Dependencies
+### Python Dependencies
 * [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 * [pixivpy](https://github.com/upbit/pixivpy)
 * [lottie](https://pypi.org/project/lottie/)
@@ -12,11 +13,15 @@ A setu bot for Telegram.
 * libwebp
 * youtube-dl
 * tar
+* bsdtar
+* curl
 
 ## Usage
 Run behind a proxy:
 
 `proxychains4 python3 main.py`
+
+This software runs ONLY on Linux systems!!!
 
 ## Known issue
 This repository was initially not intended for public release, hence the bot's name is hardcoded. 
